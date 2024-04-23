@@ -1,0 +1,28 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: var(--theme-color);
+  padding: 20px 40px;
+  height: 100%;
+  overflow: auto;
+  font-size: 30px;
+  background-color: var(--theme-bg-color);
+  @media screen and (max-width: 510px) {
+    padding: 20px;
+  }
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 40px;
+    color: rgb(123, 255, 83);
+  }
+  i {
+    color: red;
+  }
+}
+
+.skeleton {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

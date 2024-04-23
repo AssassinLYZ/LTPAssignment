@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  flex-shrink: 0;
+  height: 220px;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 30px;
+  white-space: nowrap;
+  user-select: none;
+  @media screen and (max-width: 700px) {
+    padding: 0 16px;
+    height: 400px;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+  }
+  .select-section {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
+  }
+
+  .choose-section {
+    .title {
+      margin: 0px;
+      color: var(--theme-color);
+      font-size: 14px;
+    }
+
+    .choices {
+      border: 1px solid var(--inactive-color);
+      border-radius: 5px;
+      display: flex;
+      width: fit-content;
+      padding: 5px;
+      cursor: pointer;
+      .choose {
+        color: var(--inactive-color);
+        padding: 5px 10px;
+      }
+      .active {
+        color: var(--theme-color);
+      }
+    }
+  }
+}

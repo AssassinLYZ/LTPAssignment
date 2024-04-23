@@ -1,0 +1,16 @@
+[
+  {
+    "Participant": "Vera Voorbeeld",
+    "Enthousiasm": 4.8,
+    "MBOlevel": "D",
+    "Reliability": 2.4,
+    "Total": "4.0"
+  },
+  {
+    "Participant": "Donald Duck",
+    "Enthousiasm": 2.4,
+    "MBOlevel": "A",
+    "Reliability": 3.2,
+    "Total": null
+  }
+]
